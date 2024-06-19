@@ -3,3 +3,5 @@ public/
 .env.local
 
 node_modules/
+
+.next/
