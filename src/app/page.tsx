@@ -11,7 +11,7 @@ export default function Signup() {
     const [email, setEmail] = useState('')
     const router = useRouter()
 
-    const handleSubmit = async (event) => {
+    const handleSubmit = async (event: { preventDefault: () => void }) => {
         event.preventDefault()
 
         try {
