@@ -4,7 +4,23 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserTie } from '@fortawesome/free-solid-svg-icons'
 
-const UserProfilePopover = ({ user, userName }) => {
+interface User {
+    username: string
+    name: string
+    avatar: string
+    role: string
+    link: string
+}
+
+interface UserProfilePopoverProps {
+    user: User
+    userName: string
+}
+
+const UserProfilePopover: React.FC<UserProfilePopoverProps> = ({
+    user,
+    userName,
+}) => {
     return (
         <div className="inline-block relative group">
             <button className="py-1.5 px-3 text-sm bg-slate-900 text-white rounded-full cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 hover:bg-slate-700">

@@ -1,8 +1,11 @@
 {
   "name": "crewgageweb",
+  "homepage": "https://amanbhoria.github.io/crewgage-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "npm run build && gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -25,6 +28,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "gh-pages": "^6.1.1",
     "postcss": "^8",
     "tailwind-scrollbar": "^3.1.0",
     "tailwindcss": "^3.4.1",
