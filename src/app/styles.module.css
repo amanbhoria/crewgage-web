@@ -1,0 +1,19 @@
+/* styles.module.css */
+.animatedButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    background-size: 200% auto;
+    transition: background-position 0.5s;
+    border-radius: 6px;
+}
+.animatedButton:hover {
+    background-position: right center;
+}

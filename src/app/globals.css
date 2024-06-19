@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.gradient-background {
+  background: linear-gradient(280deg,#080808,#ffffff);
+  background-size: 120% 120%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.gradient-text {
+  background: linear-gradient(280deg,#080808,#ffffff);
+  background-size: 120% 120%;
+  animation: gradient-animation 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+main {
+  flex: 1;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
