@@ -32,6 +32,29 @@ html, body, #root, .App {
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 600px) {
+  header, footer {
+      padding: 0.5rem;
+  }
+  
+  main {
+      /* padding: 0.5rem; */
+  }
+
+  .crewgage-title {
+    font-size: 3rem;
+  }
+
+  .follow-us {
+    display: block;
+  }
+  
+  section {
+      padding: 1rem;
+      margin: 0;
+  }
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;

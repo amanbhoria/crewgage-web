@@ -7,7 +7,7 @@ import * as styles from '../styles.module.css' // Import CSS module
 
 const AboutPage = () => {
     return (
-        <main className="bg-black text-white min-h-screen p-8 h-32 ">
+        <main className="bg-black text-white min-h-screen p-8">
             {/* scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar scrollbar-thumb-slate-700 scrollbar-track-slate-300 overflow-y-scroll */}
             <Navbar />
             <div className="container mx-auto px-4 py-16 text-center">
@@ -60,14 +60,14 @@ const AboutPage = () => {
                     user-friendly platform that enhances efficiency and
                     streamlines communication for contractors.
                 </p>
-                <p className="text-xl inline-block  font-sm bg-slate-900 text-white px-2 py-1.5 rounded-md semibold mb-4 gradient-background">
+                <p className="text-xl font-sm inline-block bg-slate-900 text-white px-2 py-1.5 rounded-md semibold mb-4 gradient-background">
                     📱 Exciting News!
                 </p>
                 <p className="text-lg mb-4">
                     We're about to launch our app on the Google Play Store,
                     making it even easier to access our tools on the go.
                 </p>
-                <p className="text-xl inline-block  font-semibold mb-4 bg-slate-900 px-2 py-1.5 text-white rounded-md gradient-background">
+                <p className="text-xl inline-block font-semibold mb-4 bg-slate-900 px-2 py-1.5 text-white rounded-md gradient-background">
                     🔗 Join us!
                 </p>
                 <p className="text-lg">

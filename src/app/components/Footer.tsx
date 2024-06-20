@@ -23,7 +23,7 @@ const Footer = () => {
                         >
                             crewgagedevs@gmail.com
                         </a>
-                        <span className="ml-4">
+                        <span className="ml-4 follow-us">
                             Follow us on:{' '}
                             <a
                                 href="https://github.com/amanbhoria"

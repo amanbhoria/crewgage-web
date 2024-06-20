@@ -9,7 +9,7 @@ const ComingSoon: React.FC = () => {
                 <div className="flex justify-center mb-8">
                     <WrenchScrewdriverIcon className="h-5 w-5 text-white" />
                 </div>
-                <h1 className="text-8xl font-bold mb-4 pb-2 gradient-text">
+                <h1 className="text-8xl font-bold mb-4 pb-2 crewgage-title gradient-text">
                     CrewGage
                 </h1>
                 <h2 className="text-2xl font-light mb-4">Gearing Up</h2>
