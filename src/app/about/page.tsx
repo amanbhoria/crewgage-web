@@ -29,16 +29,7 @@ const AboutPage = () => {
                             userName={'Aman Bhoria'}
                         />
                     </span>
-                    , and along with{' '}
-                    <span className="font-semibold">
-                        {/* Rajat Joshi */}{' '}
-                        <UserProfilePopover
-                            key={users[1].index}
-                            user={users[1]}
-                            userName={'Rajat Joshi'}
-                        />
-                    </span>
-                    , we are thrilled to unveil our latest project, CrewGage! 🎉
+                    , I am thrilled to unveil our latest project, CrewGage! 🎉
                 </p>
                 {/* </div> */}
                 {/* ))} */}

@@ -44,10 +44,6 @@ html, body, #root, .App {
   .crewgage-title {
     font-size: 3rem;
   }
-
-  .follow-us {
-    display: block;
-  }
   
   section {
       padding: 1rem;
